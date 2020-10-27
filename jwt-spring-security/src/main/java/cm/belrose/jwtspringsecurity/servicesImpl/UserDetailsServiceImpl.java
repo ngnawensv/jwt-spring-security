@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 
 /**
- * Spring Security ne connait pas l'interface AccountService mais plutot son interface UserDetailsService
+ * Spring security ne connait pas l'interface AccountService mais plutot son interface UserDetailsService
  * Cette classe permet d'implementer l'interface UserDetailsService qui à une seule méthode loadUserByUsername()
  *
  */

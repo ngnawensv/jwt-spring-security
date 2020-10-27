@@ -46,7 +46,7 @@ public class JwtSpringSecurityApplication  implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		accountService.saveUser(new AppUser("admin","123"));
+		/*accountService.saveUser(new AppUser("admin","123"));
 		accountService.saveUser(new AppUser("user","123"));
 
 		accountService.saveRole(new AppRole("ADMIN"));
@@ -60,6 +60,6 @@ public class JwtSpringSecurityApplication  implements CommandLineRunner {
 		});
 		tasksDao.findAll().forEach(tasks -> {
 			log.info(String.valueOf(tasks));
-		});
+		});*/
 	}
 }

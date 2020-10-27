@@ -1,4 +1,4 @@
-package cm.belrose.jwtspringsecurity.Security;
+package cm.belrose.jwtspringsecurity.security;
 
 public class SecurityConstants {
     public static final String SECRET="admin@admin.cm";

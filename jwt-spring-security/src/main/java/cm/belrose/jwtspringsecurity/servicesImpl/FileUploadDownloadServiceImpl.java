@@ -35,7 +35,7 @@ public class FileUploadDownloadServiceImpl implements FileUploadDownloadService 
             Path targetLocation=fileStorageLocation.resolve(fileName);
             Files.copy(file.getInputStream(),targetLocation, StandardCopyOption.REPLACE_EXISTING);
         }catch (Exception ex){
-            log.error("Exception=====> "+ex.getMessage());
+            log.error("exceptions=====> "+ex.getMessage());
         }
         return fileName;
     }

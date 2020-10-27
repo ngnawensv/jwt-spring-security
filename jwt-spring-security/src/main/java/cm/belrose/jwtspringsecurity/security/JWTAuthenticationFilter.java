@@ -1,4 +1,4 @@
-package cm.belrose.jwtspringsecurity.Security;
+package cm.belrose.jwtspringsecurity.security;
 
 import cm.belrose.jwtspringsecurity.entities.AppUser;
 import com.fasterxml.jackson.databind.ObjectMapper;
